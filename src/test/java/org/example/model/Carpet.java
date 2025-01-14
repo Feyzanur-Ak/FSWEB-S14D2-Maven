@@ -1,15 +1,17 @@
 package org.example.model;
 
+import org.example.model.enums.PaintColor;
+
 public class Carpet {
     private int width;
     private int height;
-    private int PaintColor color;
+    private PaintColor color;
 
 
-    public Carpet(int height, int width, int paintColor) {
+    public Carpet(int height, int width, PaintColor color) {
         this.height = height;
         this.width = width;
-        PaintColor = paintColor;
+        this.color = color;
     }
 
     public int getWidth() {
@@ -20,8 +22,8 @@ public class Carpet {
         return height;
     }
 
-    public int getPaintColor() {
-        return PaintColor;
+    public PaintColor  getColor() {
+        return color;
     }
 
     public void lying() {
