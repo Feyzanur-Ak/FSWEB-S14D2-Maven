@@ -4,7 +4,7 @@ public class Bed {
     private String pillows;
     private int height;
     private int sheets;
-    private int quilt;
+    private int quilts;
     private int style;
 
 
@@ -13,7 +13,7 @@ public class Bed {
         this.pillows = pillows;
         this.height = height;
         this.sheets = sheets;
-        this.quilt = quilt;
+        this.quilts = quilt;
         this.style = style;
     }
 
@@ -30,7 +30,7 @@ public class Bed {
     }
 
     public int getQuilts() {
-        return quilt;
+        return quilts;
     }
 
     public int getStyle() {
